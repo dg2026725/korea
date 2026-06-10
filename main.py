@@ -17,8 +17,7 @@ while True :
     if ' ' in k :
         b.texture = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQruH_sEODrsDkBrnaLGn8Lysog30Uu_BglWWAcJpcqoddPS_mpOcDt_Qc&s=10'
 
-while True :
-    rate(50)
-    w = k()
-    if 'w' in k :
-        b.opacity = random.random()
+colors = [color.red, color.green, color.blue]
+
+def change_color():
+    b.color = colors[randint(0,2)]0
